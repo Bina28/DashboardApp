@@ -1,0 +1,64 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:13
+        ports:
+          - 5432:5432
+        env:
+          POSTGRES_USER: admin
+          POSTGRES_PASSWORD: admin123
+          POSTGRES_DB: dashboarddb
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    env:
+      ConnectionStrings__DefaultConnection: Host=localhost;Port=5432;Database=dashboarddb;Username=admin;Password=admin123
+      JwtSettings__Key: MySuperSecretJwtKeyThatIsLongEnough123
+      JwtSettings__Issuer: AdminDashboardProject
+      JwtSettings__Audience: MyAppClients
+      JwtSettings__DurationInMinutes: 10
+
+    steps:
+      - name: 🔄 Checkout kode
+        uses: actions/checkout@v3
+
+      - name: 🛠️ Installer .NET SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.0.x'
+
+      - name: 📦 Restore dependencies
+        run: dotnet restore ./AdminDashboardProject/AdminDashboardApi/AdminDashboardApi.sln
+
+      - name: 🧱 Build backend
+        run: dotnet build ./AdminDashboardProject/AdminDashboardApi/AdminDashboardApi.sln --configuration Release --no-restore
+
+      - name: ✅ Kjør tester
+        run: dotnet test ./AdminDashboardProject/AdminDashboardApi/AdminDashboardApi.Tests/AdminDashboardApi.Tests.csproj --configuration Release --no-build --verbosity normal
+
+      - name: 📦 Sett opp Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: 📥 Installer frontend dependencies
+        working-directory: ./dashboard-react-app
+        run: npm install
+
+      - name: 🧱 Bygg frontend
+        working-directory: ./dashboard-react-app
+        run: npm run build
