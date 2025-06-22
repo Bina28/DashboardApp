@@ -47,8 +47,8 @@ jobs:
       - name: 🧱 Build backend
         run: dotnet build ./AdminDashboardProject/AdminDashboardApi/AdminDashboardApi.sln --configuration Release --no-restore
 
-      - name: ✅ Kjør tester
-        run: dotnet test ./AdminDashboardProject/AdminDashboardApi/AdminDashboardApi.Tests/AdminDashboardApi.Tests.csproj --configuration Release --no-build --verbosity normal
+      - name: Run backend tests
+        run: dotnet test ./AdminDashboardProject/AdminDashboardApi/AdminDashboardApi.Test/AdminDashboardApi.Test.csproj --configuration Release --no-build --verbosity normal
 
       - name: 📦 Sett opp Node.js
         uses: actions/setup-node@v3
