@@ -1,0 +1,6 @@
+@AdminDashboardApi_HostAddress = http://localhost:5164
+
+GET {{AdminDashboardApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

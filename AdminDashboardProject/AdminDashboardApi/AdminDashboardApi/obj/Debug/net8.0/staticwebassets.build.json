@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "nP8DbuBMTQS1uwz/rdNl6JcdvPz0Oqw6V505WvuBd/w=",
+  "Source": "AdminDashboardApi",
+  "BasePath": "_content/AdminDashboardApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

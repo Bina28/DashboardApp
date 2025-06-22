@@ -1,0 +1,392 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FAA0B01-1EB6-49C8-8C9D-56D01DE5B51F}|AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAA0B01-1EB6-49C8-8C9D-56D01DE5B51F}|AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj|solutionrelative:admindashboardapi.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\services\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\services\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\services\\iauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\services\\iauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\models\\exchangerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\models\\exchangerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\models\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\models\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\data\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\data\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FAA0B01-1EB6-49C8-8C9D-56D01DE5B51F}|AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi.test\\admindashboardapi.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9FAA0B01-1EB6-49C8-8C9D-56D01DE5B51F}|AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj|solutionrelative:admindashboardapi.test\\admindashboardapi.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FAA0B01-1EB6-49C8-8C9D-56D01DE5B51F}|AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi.test\\admindashboardapi.test.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9FAA0B01-1EB6-49C8-8C9D-56D01DE5B51F}|AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj|solutionrelative:admindashboardapi.test\\admindashboardapi.test.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\admindashboardapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\admindashboardapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|c:\\users\\dyako\\onedrive\\skrivebord\\studyprojects\\admindashboardproject\\admindashboardapi\\admindashboardapi\\admindashboardapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F5ADB312-A528-4193-AB21-A0D9A15E191A}|AdminDashboardApi\\AdminDashboardApi.csproj|solutionrelative:admindashboardapi\\admindashboardapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Program.cs",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\Program.cs",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Program.cs",
+              "RelativeToolTip": "AdminDashboardApi\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T09:42:17.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi.Test\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "AdminDashboardApi.Test\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi.Test\\UnitTest1.cs",
+              "RelativeToolTip": "AdminDashboardApi.Test\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T20:19:13.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Models\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\Models\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Models\\AuthResponse.cs",
+              "RelativeToolTip": "AdminDashboardApi\\Models\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T16:59:14.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "AdminDashboardApi\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T22:23:36.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Models\\LoginDto.cs",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\Models\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Models\\LoginDto.cs",
+              "RelativeToolTip": "AdminDashboardApi\\Models\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:15:43.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\appsettings.json",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\appsettings.json",
+              "RelativeToolTip": "AdminDashboardApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-20T13:04:12.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Services\\AuthManager.cs",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\Services\\AuthManager.cs",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Services\\AuthManager.cs",
+              "RelativeToolTip": "AdminDashboardApi\\Services\\AuthManager.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T15:04:31.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Services\\IAuthManager.cs",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\Services\\IAuthManager.cs",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Services\\IAuthManager.cs",
+              "RelativeToolTip": "AdminDashboardApi\\Services\\IAuthManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T15:02:51.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Models\\Payment.cs",
+              "RelativeToolTip": "AdminDashboardApi\\Models\\Payment.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T09:58:02.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExchangeRate.cs",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Models\\ExchangeRate.cs",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\Models\\ExchangeRate.cs",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Models\\ExchangeRate.cs",
+              "RelativeToolTip": "AdminDashboardApi\\Models\\ExchangeRate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T09:58:49.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClientDto.cs",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Models\\ClientDto.cs",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\Models\\ClientDto.cs",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Models\\ClientDto.cs",
+              "RelativeToolTip": "AdminDashboardApi\\Models\\ClientDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:29:16.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Models\\Client.cs",
+              "RelativeToolTip": "AdminDashboardApi\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T09:57:18.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Data\\SeedData.cs",
+              "RelativeToolTip": "AdminDashboardApi\\Data\\SeedData.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T10:01:06.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "AdminDashboardApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T09:59:52.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Data\\Configurations\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\Data\\Configurations\\RoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Data\\Configurations\\RoleConfiguration.cs",
+              "RelativeToolTip": "AdminDashboardApi\\Data\\Configurations\\RoleConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T10:44:12.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminDashboardApi.Test",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj",
+              "RelativeDocumentMoniker": "AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj",
+              "RelativeToolTip": "AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-22T20:19:33.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminDashboardApi.Test",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj",
+              "RelativeDocumentMoniker": "AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj",
+              "RelativeToolTip": "AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-22T20:19:54.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Dockerfile",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\Dockerfile",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Dockerfile",
+              "RelativeToolTip": "AdminDashboardApi\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-21T17:32:20.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminDashboardApi.csproj",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\AdminDashboardApi.csproj",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\AdminDashboardApi.csproj",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\AdminDashboardApi.csproj",
+              "RelativeToolTip": "AdminDashboardApi\\AdminDashboardApi.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-20T09:54:29.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\appsettings.Development.json",
+              "RelativeToolTip": "AdminDashboardApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-20T13:04:04.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AdminDashboardApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-20T13:04:17.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminDashboardApi",
+              "DocumentMoniker": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\AdminDashboardApi.csproj",
+              "RelativeDocumentMoniker": "AdminDashboardApi\\AdminDashboardApi.csproj",
+              "ToolTip": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\AdminDashboardApi.csproj",
+              "RelativeToolTip": "AdminDashboardApi\\AdminDashboardApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-20T09:54:22.269Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

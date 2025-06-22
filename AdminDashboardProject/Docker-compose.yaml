@@ -1,0 +1,39 @@
+services:
+  db:
+    image: postgres
+    container_name: postgres-db
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
+      POSTGRES_DB: dashboarddb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  backend:
+    build: ./AdminDashboardApi/AdminDashboardApi
+    ports:
+      - "5000:80"
+    depends_on:
+      - db
+    environment:
+      ConnectionStrings__DefaultConnection: Host=db;Database=dashboarddb;Username=admin;Password=admin123
+      JwtSettings__Key: MySuperSecretJwtKeyThatIsLongEnough123
+      JwtSettings__Issuer: AdminDashboardProject
+      JwtSettings__Audience: MyAppClients
+      JwtSettings__DurationInMinutes: 10
+
+  frontend:
+    build: ./dashboard-react-app
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    environment:
+      VITE_API_URL:  http://backend
+
+
+volumes:
+  pgdata:
