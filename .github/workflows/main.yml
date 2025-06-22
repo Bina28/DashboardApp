@@ -33,32 +33,33 @@ jobs:
       JwtSettings__DurationInMinutes: 10
 
     steps:
-      - name: 🔄 Checkout kode
+      - name: Checkout kode
         uses: actions/checkout@v3
 
-      - name: 🛠️ Installer .NET SDK
+      - name: Installer .NET SDK
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '8.0.x'
 
-      - name: 📦 Restore dependencies
+      - name: Restore dependencies
         run: dotnet restore ./AdminDashboardProject/AdminDashboardApi/AdminDashboardApi.sln
 
-      - name: 🧱 Build backend
+      - name: Build backend
         run: dotnet build ./AdminDashboardProject/AdminDashboardApi/AdminDashboardApi.sln --configuration Release --no-restore
 
       - name: Run backend tests
         run: dotnet test ./AdminDashboardProject/AdminDashboardApi/AdminDashboardApi.Test/AdminDashboardApi.Test.csproj --configuration Release --no-build --verbosity normal
 
-      - name: 📦 Sett opp Node.js
+      - name: Sett opp Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20'
 
-      - name: 📥 Installer frontend dependencies
-        working-directory: ./dashboard-react-app
+      - name: Install frontend dependencies
+        working-directory: ./AdminDashboardProject/dashboard-react-app
         run: npm install
 
-      - name: 🧱 Bygg frontend
-        working-directory: ./dashboard-react-app
+      - name: Build frontend
+        working-directory: ./AdminDashboardProject/dashboard-react-app
         run: npm run build
+
