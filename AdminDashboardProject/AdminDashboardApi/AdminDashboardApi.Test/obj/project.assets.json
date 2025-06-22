@@ -7935,11 +7935,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj",
+      "projectUniqueName": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\DashboardApp\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj",
       "projectName": "AdminDashboardApi.Test",
-      "projectPath": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj",
+      "projectPath": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\DashboardApp\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi.Test\\AdminDashboardApi.Test.csproj",
       "packagesPath": "C:\\Users\\dyako\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi.Test\\obj\\",
+      "outputPath": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\DashboardApp\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7961,8 +7961,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\AdminDashboardApi.csproj": {
-              "projectPath": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\AdminDashboardApi.csproj"
+            "C:\\Users\\dyako\\OneDrive\\Skrivebord\\DashboardApp\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\AdminDashboardApi.csproj": {
+              "projectPath": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\DashboardApp\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\AdminDashboardApi.csproj"
             }
           }
         }

@@ -4256,11 +4256,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\AdminDashboardApi.csproj",
+      "projectUniqueName": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\DashboardApp\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\AdminDashboardApi.csproj",
       "projectName": "AdminDashboardApi",
-      "projectPath": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\AdminDashboardApi.csproj",
+      "projectPath": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\DashboardApp\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\AdminDashboardApi.csproj",
       "packagesPath": "C:\\Users\\dyako\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\StudyProjects\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\obj\\",
+      "outputPath": "C:\\Users\\dyako\\OneDrive\\Skrivebord\\DashboardApp\\AdminDashboardProject\\AdminDashboardApi\\AdminDashboardApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
