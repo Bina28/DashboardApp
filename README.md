@@ -39,6 +39,7 @@ cd DashboardApp
 Запуск приложения с помощью Docker Compose:
 
 ```bash
+cd AdminDashboardProject
 docker compose up --build
 ```
 
