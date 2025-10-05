@@ -1,14 +1,25 @@
 
-# 🧠 Admin Dashboard
+# 🧠 Admin Dashboard 
 
-Admin application built with **ASP.NET Core 8 + React + PostgreSQL**, featuring:
+A small **Admin Dashboard** project to demonstrate full-stack development using **ASP.NET Core 8 Minimal API** and **React + Vite**.  
 
-- JWT authentication (including refresh tokens)  
-- Client management  
-- Payments  
-- Currency rate updates  
-- CI/CD pipeline via GitHub Actions  
-- Docker environment  
+This project is a simplified version of a real admin panel, focusing on **REST API design, clean backend code, and a basic React frontend**.  
+
+---
+
+## 🔹 Project Overview
+
+The Admin Dashboard allows you to:
+
+- Authenticate as an admin 
+- View a list of clients with their balances
+- View recent payments 
+- Check and update the token exchange rate
+
+The frontend provides:
+
+- A **login page** that stores a token in `localStorage`
+- A **dashboard page** showing clients and a section to view/update the token rate
 
 ---
 
@@ -16,7 +27,8 @@ Admin application built with **ASP.NET Core 8 + React + PostgreSQL**, featuring:
 
 - .NET 8 (ASP.NET Core Minimal API)  
 - PostgreSQL  
-- React + Vite  
+- React + Vite
+- Tailwind CSS 
 - Docker / Docker Compose  
 - Entity Framework Core  
 - Identity  
