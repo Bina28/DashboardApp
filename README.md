@@ -1,87 +1,88 @@
+
 # 🧠 Admin Dashboard
 
-Aдмин-приложение на **ASP.NET Core 8 + React + PostgreSQL**, поддерживает:
+Admin application built with **ASP.NET Core 8 + React + PostgreSQL**, featuring:
 
-- JWT-аутентификацию (включая refresh-токены)
-- Управление клиентами
-- Платежи
-- Обновление валютного курса
-- CI/CD пайплайн через GitHub Actions
-- Docker-окружение
-
----
-
-## 🚀 Технологии
-
-- .NET 8 (ASP.NET Core Minimal API)
-- PostgreSQL
-- React + Vite
-- Docker / Docker Compose
-- Entity Framework Core
-- Identity
-- GitHub Actions (CI/CD)
+- JWT authentication (including refresh tokens)  
+- Client management  
+- Payments  
+- Currency rate updates  
+- CI/CD pipeline via GitHub Actions  
+- Docker environment  
 
 ---
 
+## 🚀 Technologies
 
-## ✅ Данные для входа:
+- .NET 8 (ASP.NET Core Minimal API)  
+- PostgreSQL  
+- React + Vite  
+- Docker / Docker Compose  
+- Entity Framework Core  
+- Identity  
+- GitHub Actions (CI/CD)  
 
+---
+## 🖼️ Screenshot
+![Admin Dashboard Screenshot](./images/admin-dashboard.png)  
 
-#### 📦 Быстрый старт (Docker)
-- Требуется установленный Docker
+---
 
-- Клонирование репозитория и переход в папку проекта:
+## ✅ Login Credentials
+
+#### 📦 Quick Start (Docker)
+- Requires Docker installed  
+
+- Clone the repository and navigate to the project folder:
 
 ```bash
-git clone https://github.com/<твой-профиль>/DashboardApp.git
+git clone https://github.com/<your-username>/DashboardApp.git
 cd DashboardApp
 ```
-Запуск приложения с помощью Docker Compose:
+Run the application using Docker Compose:
 
 ```bash
 cd AdminDashboardProject
 docker compose up --build
 ```
-
-#### 🚪 Приложение будет доступно по адресам:
-
-
+#### 🚪 Application URLs
 Backend API: http://localhost:5000/api
 
 Frontend: http://localhost:5173
 
+✅ Login
+Open the frontend at http://localhost:5173 to see the login page.
 
-#### ✅  Вход в приложение
-- При открытии frontend по адресу http://localhost:5173 отображается страница входа.
+Use the following credentials to log in:
 
-- Для авторизации используйте следующие данные:
-```
+```bash
 Email: admin@mirra.dev
-Пароль: admin123
+Password: admin123
 ```
 ---
 
-## 🖥️ Функционал Dashboard
-После успешного входа вы попадёте в админ-панель, где можно:
+## 🖥️ Dashboard Features
+Once logged in, you can access the admin panel to:
 
-- Просматривать список клиентов с их балансами
+- View a list of clients with their balances
 
-- Добавлять, редактировать и удалять клиентов
+- Add, edit, and delete clients
 
-- Просматривать последние платежи
+- View recent payments
 
-- Просматривать и обновлять текущий валютный курс
+- View and update current currency rates
 
-- Управлять пользователями (в будущем расширение)
+- Manage users (future functionality)
 
-- Использовать JWT-аутентификацию с обновлением токенов (refresh tokens)
+- Use JWT authentication with token refresh
+
 ---
 
-## ⚙️ Конфигурация
-В docker-compose.yml заданы переменные окружения для:
 
+## ⚙️ Configuration
+Environment variables are set in docker-compose.yml:
 
-```yaml
+```bash
 POSTGRES_USER: admin
 POSTGRES_PASSWORD: admin123
 POSTGRES_DB: dashboarddb
@@ -93,27 +94,29 @@ JwtSettings__Issuer: AdminDashboardProject
 JwtSettings__Audience: MyAppClients
 JwtSettings__DurationInMinutes: 10
 ```
-----
-## 🧪 Тестирование
-Тесты backend'а запускаются автоматически в CI. 
+---
+## 🧪 Testing
+
+Backend tests run automatically in CI.
 
 ---
 ## 🔄 CI/CD
-GitHub Actions конфигурация включает:
+GitHub Actions configuration includes:
 
-- Восстановление зависимостей и сборку backend
+- Restoring dependencies and building the backend
 
-- Запуск тестов backend
+- Running backend tests
 
-- Установку зависимостей и сборку frontend
+- Installing frontend dependencies and building frontend
 
-- Файл конфигурации находится по пути: .github/workflows/ci.yml
+- The workflow file is located at: .github/workflows/ci.yml
+
 ---
-##  📬 Postman коллекция
-Для удобного тестирования API доступна коллекция Postman:
 
-```
+## 📬 Postman Collection
+A Postman collection is available for convenient API testing:
+
+```bash
 DashboardApp.postman_collection.json
 ```
-Файл находится в корне репозитория. Импортируйте её в Postman, чтобы быстро получить готовые запросы для всех основных эндпоинтов.
-
+The file is located in the root of the repository. Import it into Postman to quickly access ready-made requests for all main endpoints.
