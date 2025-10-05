@@ -36,7 +36,8 @@ The frontend provides:
 
 ---
 ## 🖼️ Screenshot
-![Admin Dashboard Screenshot](./images/admin-dashboard.png)  
+
+<img width="400" height="400" alt="admin-dashboard" src="https://github.com/user-attachments/assets/190d150e-1610-4152-9781-3643671fbc98" />
 
 ---
 
